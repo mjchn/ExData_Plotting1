@@ -35,4 +35,4 @@ with(powerdata,lines(Sub_metering_2~DateTime,col="red"))
 with(powerdata,lines(Sub_metering_3~DateTime,col="blue"))
 legend("topright", lty=1, lwd=2, col=c("black", "red", "blue"), legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),cex=0.75)
 
-dev.off()
+dev.off() 
