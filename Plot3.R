@@ -29,7 +29,7 @@ if(!file.exists("./Module 4 Project 1/Plots"))
 {dir.create("./Module 4 Project 1/Plots")}
 
 png("./Module 4 Project 1/Plots/Plot3.png", width=480, height=480)
-with(powerdata, plot(Sub_metering_1~DateTime, type="l", ylab="Global Active Power (kilowatts)", xlab=""))
+with(powerdata, plot(Sub_metering_1~DateTime, type="l", ylab="Energy sub metering", xlab=""))
 #Annotate
 with(powerdata,lines(Sub_metering_2~DateTime,col="red"))
 with(powerdata,lines(Sub_metering_3~DateTime,col="blue"))
